@@ -1,0 +1,21 @@
+メーカー別ファイル作成
+  基準URLを渡す
+
+スクレイピング
+  メーカー別
+  /thermaltake/
+    基準ファイルthermaltake1.htmlの有無
+      なければ取得する
+      古ければ再取得する
+    thermaltake1.htmlを読み込む
+      件数を取得する
+
+    thermaltake"N".html map
+      スクレイピングする
+      配列に追加する
+      件数/30の商切り上げ回数ループ
+    jsonに書き込む
+  
+  /phanteks/
+
+
