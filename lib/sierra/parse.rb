@@ -11,6 +11,11 @@ module Sierra
         file_exist(path.sub(/[0-9]+/, i.to_s),url.chop<<i.to_s)
       }
     end
+
+    def self.silverstone()
+      
+    end
+
     def self.read_website(url)
       Net::HTTP.get(URI(url))
     end    
